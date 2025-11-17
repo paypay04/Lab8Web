@@ -1,0 +1,193 @@
+/* ------------------------------
+   Global Style
+--------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f9f4ff; /* pastel purple */
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(140, 95, 255, 0.15);
+}
+
+/* ------------------------------
+   Heading & Links
+--------------------------------*/
+h1 {
+    text-align: center;
+    color: #7b4bff;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #7b4bff;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #ff7edb;
+}
+
+/* Tombol tambah */
+.container > a {
+    display: inline-block;
+    background: linear-gradient(135deg, #9f6bff, #ff9ce6);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.container > a:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* ------------------------------
+   Table Style
+--------------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+th {
+    background: #d7c3ff;
+    color: #4a2d8a;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #fff2ff;
+    transition: 0.2s;
+}
+
+img {
+    border-radius: 8px;
+}
+
+/* ------------------------------
+   Form Inputs
+--------------------------------*/
+.input {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5a3db8;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c9baff;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus {
+    border-color: #9a6bff;
+    box-shadow: 0 0 0 3px rgba(171, 120, 255, 0.25);
+}
+
+/* ------------------------------
+   Submit Buttons
+--------------------------------*/
+.submit {
+    margin-top: 25px;
+}
+
+.submit input[type="submit"],
+.submit a {
+    display: inline-block;
+    background: linear-gradient(135deg, #9f6bff, #ff9ce6);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.submit input[type="submit"]:hover,
+.submit a:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* ------------------------------
+   Delete & Edit Links
+--------------------------------*/
+td a {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+}
+
+td a[href*="ubah"] {
+    background: #9f6bff;
+}
+
+td a[href*="hapus"] {
+    background: #ff8ac2;
+}
+
+td a:hover {
+    opacity: .85;
+}
+
+/* ------------------------------
+   Mobile Responsive
+--------------------------------*/
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+        padding: 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    td img {
+        width: 70px;
+    }
+}
