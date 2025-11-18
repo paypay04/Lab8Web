@@ -9,7 +9,8 @@
 
 **Data Barang**
 
-<img width="1920" height="1080" alt="Screenshot (876)" src="https://github.com/user-attachments/assets/89c6c96e-0c0f-446e-adf7-9fa83220d1f6" />
+<img width="1920" height="1080" alt="Screenshot (877)" src="https://github.com/user-attachments/assets/b8f95e8e-a9fa-49ed-ac06-e7fc0f3c09f1" />
+
 
 **Tambah Barang**
 
