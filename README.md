@@ -5,6 +5,25 @@
 **Kelas:** TI.24.A2  
 **Mata Kuliah:** Pemrograman Web 1 
 
+# Tampilan Awal HTML
+
+**Data Barang**
+
+<img width="1920" height="1080" alt="Screenshot (876)" src="https://github.com/user-attachments/assets/89c6c96e-0c0f-446e-adf7-9fa83220d1f6" />
+
+**Tambah Barang**
+
+<img width="1920" height="1080" alt="Screenshot (878)" src="https://github.com/user-attachments/assets/466cd89f-492e-4337-a968-c24f525abf46" />
+
+**Ubah barang**
+
+<img width="1920" height="1080" alt="Screenshot (879)" src="https://github.com/user-attachments/assets/e81adb6f-17d7-452c-bec5-ce96e48641fb" />
+
+**Hapus Barang**
+
+<img width="1920" height="1080" alt="Screenshot (881)" src="https://github.com/user-attachments/assets/21c97a6d-030d-49d5-8c61-5e3286c856c1" />
+
+# Tampilan Setelah ditambahkan CSS
 **Data Barang**
 
 <img width="1920" height="1080" alt="Screenshot (873)" src="https://github.com/user-attachments/assets/30f42c3a-5d37-4182-9524-fcc0581ccc46" />
